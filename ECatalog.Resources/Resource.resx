@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CategoryDeleted" xml:space="preserve">
+    <value>Category is deleted.</value>
+  </data>
+  <data name="CategoryIsNotTranslated" xml:space="preserve">
+    <value>Category is not translated</value>
+  </data>
+  <data name="CategoryItemsDoesNotActivated" xml:space="preserve">
+    <value>Category must have at least one item.</value>
+  </data>
+  <data name="CategoryNameAlreadyExist" xml:space="preserve">
+    <value>Category name is already exist.</value>
+  </data>
+  <data name="CategoryNameExceedLemgth" xml:space="preserve">
+    <value>Category name cannot exceed 300 characters.</value>
+  </data>
+  <data name="CategoryNotFound" xml:space="preserve">
+    <value>Category not found.</value>
+  </data>
+  <data name="EmptyCategoryImage" xml:space="preserve">
+    <value>Category image is requied</value>
+  </data>
+  <data name="EmptyCategoryName" xml:space="preserve">
+    <value>Please enter category name.</value>
+  </data>
+  <data name="EmptyItemDescription" xml:space="preserve">
+    <value>Please enter item description.</value>
+  </data>
+  <data name="EmptyItemName" xml:space="preserve">
+    <value>Please enter item name.</value>
+  </data>
+  <data name="EmptyItemPrice" xml:space="preserve">
+    <value>Please enter item pricce.</value>
+  </data>
+  <data name="EmptyMenuName" xml:space="preserve">
+    <value>Please enter menu name.</value>
+  </data>
+  <data name="EmptyRestaurantAdminPassword" xml:space="preserve">
+    <value>Please enter admin password for the restaurant.</value>
+  </data>
+  <data name="EmptyRestaurantAdminUserName" xml:space="preserve">
+    <value>Please enter admin username for the restaurant.</value>
+  </data>
+  <data name="EmptyRestaurantDescription" xml:space="preserve">
+    <value>Please enter restaurant description.</value>
+  </data>
+  <data name="EmptyRestaurantLogo" xml:space="preserve">
+    <value>Restaurant logo is required.</value>
+  </data>
+  <data name="EmptyRestaurantName" xml:space="preserve">
+    <value>Please enter restaurant name.</value>
+  </data>
+  <data name="EmptyRestaurantType" xml:space="preserve">
+    <value>Please enter restaurant type name.</value>
+  </data>
+  <data name="EmptyRestaurantWaiterUserName" xml:space="preserve">
+    <value>Please enter waiter username for the restaurant.</value>
+  </data>
+  <data name="EmptySideItemName" xml:space="preserve">
+    <value>Please enter side item name.</value>
+  </data>
+  <data name="ImageExceedSize" xml:space="preserve">
+    <value>Maximum size allowed is 20MB</value>
+  </data>
+  <data name="InvalidImageType" xml:space="preserve">
+    <value>Invalid image type.</value>
+  </data>
+  <data name="InvalidItemPrice" xml:space="preserve">
+    <value>Invalid price.</value>
+  </data>
+  <data name="InvalidSideItemValue" xml:space="preserve">
+    <value>Invalid side item value.</value>
+  </data>
+  <data name="ItemDeleted" xml:space="preserve">
+    <value>Item is deleted.</value>
+  </data>
+  <data name="ItemIsNotTranslated" xml:space="preserve">
+    <value>Item is not translated.</value>
+  </data>
+  <data name="ItemNameAlreadyExist" xml:space="preserve">
+    <value>Item name is already exist.</value>
+  </data>
+  <data name="ItemNameExceedLength" xml:space="preserve">
+    <value>Item name cannot exceed 300 characters.</value>
+  </data>
+  <data name="ItemNotFound" xml:space="preserve">
+    <value>Item not found.</value>
+  </data>
+  <data name="MenuCategoriesDoesNotActivated" xml:space="preserve">
+    <value>Menu must have at least one activated category.</value>
+  </data>
+  <data name="MenuDeleted" xml:space="preserve">
+    <value>Menu is deleted.</value>
+  </data>
+  <data name="MenuIsNotTranslated" xml:space="preserve">
+    <value>Menu is not translated</value>
+  </data>
+  <data name="MenuNameAlreadyExist" xml:space="preserve">
+    <value>Menu name is already exist</value>
+  </data>
+  <data name="MenuNameExceedLength" xml:space="preserve">
+    <value>Menu name cannot exceed 300 characters.</value>
+  </data>
+  <data name="MenuNotFound" xml:space="preserve">
+    <value>Menu not found</value>
+  </data>
+  <data name="RestaurantAdminNotFound" xml:space="preserve">
+    <value>Restaurant admin is not found.</value>
+  </data>
+  <data name="RestaurantAdminPasswordLengthNotMatched" xml:space="preserve">
+    <value>Password Length Must be 8-25 characters.</value>
+  </data>
+  <data name="RestaurantAdminUserNameAlreadyExist" xml:space="preserve">
+    <value>Username is already exist</value>
+  </data>
+  <data name="RestaurantDeleted" xml:space="preserve">
+    <value>Restaurant is deleted.</value>
+  </data>
+  <data name="RestaurantIsNotReady" xml:space="preserve">
+    <value>Restaurant is not ready</value>
+  </data>
+  <data name="RestaurantIsNotTranslated" xml:space="preserve">
+    <value>Restaurant is not translated</value>
+  </data>
+  <data name="RestaurantMenuDoesNotActivated" xml:space="preserve">
+    <value>Restaurant must have at least one activated menu.</value>
+  </data>
+  <data name="RestaurantNameAlreadyExist" xml:space="preserve">
+    <value>Restaurant name is already exist</value>
+  </data>
+  <data name="RestaurantNameExceedLength" xml:space="preserve">
+    <value>Restaurant name cannot exceed 300 characters.</value>
+  </data>
+  <data name="RestaurantNotFound" xml:space="preserve">
+    <value>Restaurant not found.</value>
+  </data>
+  <data name="RestaurantTypeAlreadyExist" xml:space="preserve">
+    <value>Restaurant type is already exist.</value>
+  </data>
+  <data name="RestaurantTypeExceedLength" xml:space="preserve">
+    <value>Restaurant type cannot exceed 300 characters.</value>
+  </data>
+  <data name="RestaurantTypeIsNotTranslated" xml:space="preserve">
+    <value>Restaurant type is not translated</value>
+  </data>
+  <data name="RestaurantTypeNotFound" xml:space="preserve">
+    <value>Restaurant type not found.</value>
+  </data>
+  <data name="RestaurantWaiterNameExceedLength" xml:space="preserve">
+    <value>Restaurant name cannot exceed 100 characters.</value>
+  </data>
+  <data name="SideItemDeleted" xml:space="preserve">
+    <value>Side item is deleted</value>
+  </data>
+  <data name="SideItemIsNotTranslated" xml:space="preserve">
+    <value>Side item is not translated.</value>
+  </data>
+  <data name="SideItemNameAlreadyExist" xml:space="preserve">
+    <value>Side item is already exists.</value>
+  </data>
+  <data name="SideItemNameExceedLength" xml:space="preserve">
+    <value>Side item cannot exceed 100 characters.</value>
+  </data>
+  <data name="SideItemNameMinimumLength" xml:space="preserve">
+    <value>Side item name must be more than 3 characters.</value>
+  </data>
+  <data name="SideItemNotFound" xml:space="preserve">
+    <value>Side item not found</value>
+  </data>
+  <data name="SizeDeleted" xml:space="preserve">
+    <value>Size is deleted</value>
+  </data>
+  <data name="SizeIsNotTranslated" xml:space="preserve">
+    <value>Size is not translated.</value>
+  </data>
+  <data name="SizeNameAlreadyExist" xml:space="preserve">
+    <value>Size name is already exist</value>
+  </data>
+  <data name="SizeNameExceedLength" xml:space="preserve">
+    <value>Size name cannot exceed 100 characters.</value>
+  </data>
+  <data name="SizeNameMinimumLength" xml:space="preserve">
+    <value>Size name must be more than 3 characters.</value>
+  </data>
+  <data name="SizeNotFound" xml:space="preserve">
+    <value>Size is not found</value>
+  </data>
+  <data name="UnSupportedLanguage" xml:space="preserve">
+    <value>Language is not supported.</value>
+  </data>
+</root>

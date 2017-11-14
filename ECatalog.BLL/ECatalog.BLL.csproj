@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53A70BBA-5EBA-4F15-8D8F-E4A834121709}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ECatalog.BLL</RootNamespace>
+    <AssemblyName>ECatalog.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.1.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataServices\CategoryService.cs" />
+    <Compile Include="DataServices\CategoryTranslationService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeCategoryService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeCategoryTranslationService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeItemService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeItemSideItemService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeItemSizeService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeItemTranslationService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeMenuService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeMenuTranslationService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeRestaurantAdminService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeRestaurantService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeRestaurantTranlationService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeRestaurantTypeService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeRestaurantTypeTranslationService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeRestaurantWaiterService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeSideItemService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeSideItemTranslationService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeSizeService.cs" />
+    <Compile Include="DataServices\FakeServices\fakeSizeTranslation.cs" />
+    <Compile Include="DataServices\FakeServices\fakeUserService.cs" />
+    <Compile Include="DataServices\Interfaces\ICategoryService.cs" />
+    <Compile Include="DataServices\Interfaces\ICategoryTranslationService.cs" />
+    <Compile Include="DataServices\Interfaces\IitemService.cs" />
+    <Compile Include="DataServices\Interfaces\IItemSideItemService.cs" />
+    <Compile Include="DataServices\Interfaces\IItemSizeService.cs" />
+    <Compile Include="DataServices\Interfaces\IitemTranslationService.cs" />
+    <Compile Include="DataServices\Interfaces\IMenuService.cs" />
+    <Compile Include="DataServices\Interfaces\IMenuTranslationService.cs" />
+    <Compile Include="DataServices\Interfaces\IRefreshTokenService.cs" />
+    <Compile Include="DataServices\Interfaces\IRestaurantAdminService.cs" />
+    <Compile Include="DataServices\Interfaces\IRestaurantService.cs" />
+    <Compile Include="DataServices\Interfaces\IRestaurantTranslationService.cs" />
+    <Compile Include="DataServices\Interfaces\IRestaurantTypeService.cs" />
+    <Compile Include="DataServices\Interfaces\IRestaurantTypeTranslationService.cs" />
+    <Compile Include="DataServices\Interfaces\IRestaurantWaiterService.cs" />
+    <Compile Include="DataServices\Interfaces\ISideItemService.cs" />
+    <Compile Include="DataServices\Interfaces\ISideItemTranslationService.cs" />
+    <Compile Include="DataServices\Interfaces\ISizeService.cs" />
+    <Compile Include="DataServices\Interfaces\ISizeTranslationService.cs" />
+    <Compile Include="DataServices\Interfaces\IUserService.cs" />
+    <Compile Include="DataServices\ItemService.cs" />
+    <Compile Include="DataServices\ItemSideItemService.cs" />
+    <Compile Include="DataServices\ItemSizeService.cs" />
+    <Compile Include="DataServices\ItemTranslationService.cs" />
+    <Compile Include="DataServices\MenuService.cs" />
+    <Compile Include="DataServices\MenuTranslationService.cs" />
+    <Compile Include="DataServices\RefreshTokenService.cs" />
+    <Compile Include="DataServices\RestaurantAdminService.cs" />
+    <Compile Include="DataServices\RestaurantService.cs" />
+    <Compile Include="DataServices\RestaurantTranslationService.cs" />
+    <Compile Include="DataServices\RestaurantTypeService.cs" />
+    <Compile Include="DataServices\RestaurantTypeTranslationService.cs" />
+    <Compile Include="DataServices\RestaurantWaiterService.cs" />
+    <Compile Include="DataServices\SideItemService.cs" />
+    <Compile Include="DataServices\SideItemTranslationService.cs" />
+    <Compile Include="DataServices\SizeService.cs" />
+    <Compile Include="DataServices\SizeTranslationService.cs" />
+    <Compile Include="DataServices\UserService.cs" />
+    <Compile Include="DTOs\CategoryDTO.cs" />
+    <Compile Include="DTOs\ItemDTO.cs" />
+    <Compile Include="DTOs\ItemNamesDto.cs" />
+    <Compile Include="DTOs\MenuDTO.cs" />
+    <Compile Include="DTOs\MenuWithCategoriesDTO.cs" />
+    <Compile Include="DTOs\PagedResultsDto.cs" />
+    <Compile Include="DTOs\RefreshTokenDto.cs" />
+    <Compile Include="DTOs\RestaurantDTO.cs" />
+    <Compile Include="DTOs\RestaurantTypeDto.cs" />
+    <Compile Include="DTOs\RestaurantWaiterDTO.cs" />
+    <Compile Include="DTOs\SideItemDTO.cs" />
+    <Compile Include="DTOs\SizeDto.cs" />
+    <Compile Include="DTOs\UserDto.cs" />
+    <Compile Include="ECatalogBLLConfig.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BaseFacade.cs" />
+    <Compile Include="Services\CategoryFacade.cs" />
+    <Compile Include="Services\Interfaces\ICategoryFacade.cs" />
+    <Compile Include="Services\Interfaces\IitemFacade.cs" />
+    <Compile Include="Services\Interfaces\IMenuFacade.cs" />
+    <Compile Include="Services\Interfaces\IRefreshTokenFacade.cs" />
+    <Compile Include="Services\Interfaces\IRestaurantFacade.cs" />
+    <Compile Include="Services\Interfaces\ISideItemFacade.cs" />
+    <Compile Include="Services\Interfaces\ISizeFacade.cs" />
+    <Compile Include="Services\Interfaces\IUserFacade.cs" />
+    <Compile Include="Services\SideItemFacade.cs" />
+    <Compile Include="Services\ItemFacade.cs" />
+    <Compile Include="Services\ManageStorage\fakeManageStorage.cs" />
+    <Compile Include="Services\ManageStorage\IManageStorage.cs" />
+    <Compile Include="Services\ManageStorage\ManageStorage.cs" />
+    <Compile Include="Services\MenuFacade.cs" />
+    <Compile Include="Services\RefreshTokenFacade.cs" />
+    <Compile Include="Services\RestaurantFacade.cs" />
+    <Compile Include="Services\SizeFacade.cs" />
+    <Compile Include="Services\UserFacade.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ECatalog.Common\ECatalog.Common.csproj">
+      <Project>{088b2be3-1326-45d3-bd15-f261b4014850}</Project>
+      <Name>ECatalog.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ECatalog.DAL\ECatalog.DAL.csproj">
+      <Project>{4000c3a4-77cd-46fe-a674-148544016805}</Project>
+      <Name>ECatalog.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frameworks\Repository.Pattern.Ef6\Repository.Pattern.Ef6.csproj">
+      <Project>{f68a1d19-93fb-47c1-a22b-42bea3e4fd8c}</Project>
+      <Name>Repository.Pattern.Ef6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frameworks\Repository.Pattern\Repository.Pattern.csproj">
+      <Project>{6e682a14-c872-4813-b620-76e108dea683}</Project>
+      <Name>Repository.Pattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frameworks\Service.Pattern\Service.Pattern.csproj">
+      <Project>{3fa0c7b6-3a40-40a7-bdd7-dd72426f6f19}</Project>
+      <Name>Service.Pattern</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
